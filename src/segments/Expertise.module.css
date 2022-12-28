@@ -1,0 +1,16 @@
+.expertise {
+  width: 90%;
+  margin: auto;
+}
+
+.title {
+  color: #069dff;
+  font-size: 2rem;
+  width: fit-content;
+  margin: 7rem auto 3rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}

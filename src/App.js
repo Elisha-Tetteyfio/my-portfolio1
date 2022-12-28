@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import About from "./segments/About";
+import Expertise from "./segments/Expertise";
 import Intro from "./segments/Intro";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <Intro />
       <About />
+      <Expertise />
     </div>
   );
 }
