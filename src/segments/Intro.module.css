@@ -1,33 +1,77 @@
 .intro {
-  background-image: linear-gradient(90deg, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.85)), url("../images/t5.jpg");
-  background-size: cover;
-  background-position: 0;
-  background-attachment: fixed;
-  height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  margin-top: 0;
-  display: flow-root;
+  height: 80vh;
+  width: 90%;
+  margin: auto;
+  /* display: flow-root; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  /* background-color: red; */
 }
 
-.intro1 {
-  font-weight: 100;
-  font-size: 3rem;
-  margin: 10% 15% 0;
+.introLeft {
+  width: 40%;
 }
 
 .intro2 {
-  font-weight: 100;
-  font-size: 6rem;
-  margin: 4rem auto;
-  width: 50%;
-  color: #ffe759;
+  font-size: 2em;
 }
 
-.intro3 {
-  font-weight: 100;
+.introName {
+  font-weight: 500;
+  color: #069dff;
+}
+
+.introButton {
+  width: 25%;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: inherit;
+  border: #069dff 1px solid;
+  color: #069dff;
+}
+
+.introButton1 {
+  background-color: #069dff;
+  color: #fafafa;
+  margin-right: 15px;
+}
+
+.introRight {
+  background-image: linear-gradient(#069dff, #fafafa);
+  height: 80%;
+  border-radius: 50% 50% 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  /* align-self: flex-start; */
+}
+
+.introRight > img {
+  height: 70vh;
+}
+
+.introDown {
   font-size: 2rem;
-  margin-left: 50rem;
+  font-weight: 600;
+  background-color: #e2f1fb;
+  height: 10vh;
+}
+
+.introDown1 {
+  width: 90%;
+  height: inherit;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.introDown2 {
+  color: #069dff;
 }
 
 /* @media only screen and (max-width: 480px) {
