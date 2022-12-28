@@ -1,10 +1,11 @@
-function App() {
+import Header from "./components/Header";
+import Intro from "./segments/Intro";
+
+const App = () => {
   return (
     <div >
-      <div>
-        <h1>Elisha Tetteyfio</h1>
-      </div>
-      My Profile
+      <Header />
+      <Intro />
     </div>
   );
 }
