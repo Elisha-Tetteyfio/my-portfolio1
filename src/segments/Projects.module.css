@@ -1,0 +1,17 @@
+.projects {
+  width: 90%;
+  margin: auto;
+}
+
+.title {
+  color: #069dff;
+  font-size: 2rem;
+  width: fit-content;
+  margin: 7rem auto 3rem;
+}
+
+.projectsSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

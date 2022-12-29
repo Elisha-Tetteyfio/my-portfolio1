@@ -1,7 +1,6 @@
 .card {
   background-color: #fff;
   width: 15rem;
-  height: max-content;
   display: flow-root;
   font-size: 1.5rem;
   font-weight: 500;
