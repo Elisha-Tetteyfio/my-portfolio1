@@ -4,7 +4,7 @@ import styles from "./Projects.module.css"
 
 const Projects = () => {
   return (
-    <div className={styles.projects}>
+    <div className={styles.projects} id="projects">
       <div className={styles.title}>My Projects</div>
       <div className={styles.projectsSection}>
         <Project 

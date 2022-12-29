@@ -4,7 +4,7 @@ import im from "../images/t1.png"
 
 const Intro = () => {
   return(
-    <div>
+    <div id="home">
       <div className={styles.intro}>
         <div className={styles.introLeft}>
           <div className={styles.intro1}>Hello there,</div>

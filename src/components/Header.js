@@ -7,9 +7,9 @@ const Header = () => {
       <div className={styles.headerr}>
         <div className={styles.header1}>Elisha</div>
         <div className={styles.header2}>
-          <div className={styles.headerLink}>Home</div>
-          <div className={styles.headerLink}>About</div>
-          <div className={styles.headerLink}>Projects</div>
+          <a href="#home" className={styles.headerLink}>Home</a>
+          <a href="#about" className={styles.headerLink}>About</a>
+          <a href="#projects" className={styles.headerLink}>Projects</a>
           <div className={styles.headerLink}>Testimonials</div>
           <div className={styles.headerLink}>Contact me</div>
         </div>

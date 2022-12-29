@@ -26,4 +26,10 @@
 
 .headerLink {
   margin: 0 30px;
+  color: #1c1919;
+  text-decoration: none;
+}
+
+.headerLink:active {
+  color: #069dff;
 }
