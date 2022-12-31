@@ -33,3 +33,13 @@
 .headerLink:active {
   color: #069dff;
 }
+
+@media screen and (max-width: 768px) {
+  .header1 {
+    font-size: 2.5rem;
+  }
+
+  .headerLink {
+    margin: 0 0 0 15px;
+  }
+}
