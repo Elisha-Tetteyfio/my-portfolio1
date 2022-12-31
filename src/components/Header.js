@@ -10,7 +10,6 @@ const Header = () => {
           <a href="#home" className={styles.headerLink}>Home</a>
           <a href="#about" className={styles.headerLink}>About</a>
           <a href="#projects" className={styles.headerLink}>Projects</a>
-          <div className={styles.headerLink}>Testimonials</div>
           <a href="#contact" className={styles.headerLink}>Contact me</a>
         </div>
       </div>

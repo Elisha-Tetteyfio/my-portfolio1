@@ -7,7 +7,7 @@ const SkillSet = (skill) => {
   // const {skills} = skills;
   return(
     <div className={styles.card}>
-      <div className={styles.imgDiv}></div>
+      <div className={styles.imgDiv}><img src={skill.img} alt="icon"/></div>
       {name}
       <div className={styles.skills}>
         {skill.skills.map((ss)=>

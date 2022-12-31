@@ -16,6 +16,12 @@
   border-radius: 5px;
 }
 
+.imgDiv > img {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;

@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./Intro.module.css"
 import im from "../images/t1.png"
+import teamwork from "../images/icons/teamwork.svg"
+import remote from "../images/icons/remote-work.svg"
+import satisfaction from "../images/icons/satisfaction.svg"
 
 const Intro = () => {
   return(
@@ -24,20 +27,23 @@ const Intro = () => {
       </div>
       <div className={styles.introDown}>
         <div className={styles.introDown1}>
-          <div>
-            Hello &#x2727;
+          <div className={styles.introDown3}>
+            <div className={styles.introDown3ImDiv}><img src={teamwork} alt="Teamwork"/></div>
+            <div>Teamwork</div>
           </div>
           <div className={styles.introDown2}>
             &#x2727;
           </div>
-          <div>
-            Hello &#x2727;
+          <div className={styles.introDown3}>
+            <div className={styles.introDown3ImDiv}><img src={remote} alt="remote"/></div>
+            <div>Remote working</div>
           </div>
           <div className={styles.introDown2}>
             &#x2727;
           </div>
-          <div>
-            Hello &#x2727;
+          <div className={styles.introDown3}>
+            <div className={styles.introDown3ImDiv}><img src={satisfaction} alt="satisfaction"/></div>
+            <div>Satisfaction guaranteed</div>
           </div>
         </div>
       </div>
