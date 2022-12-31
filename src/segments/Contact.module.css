@@ -1,0 +1,99 @@
+.contactSegment {
+  background-color: #e2f1fb;
+  margin-bottom: 50px;
+  display: flow-root;
+}
+
+.contactHeader {
+  text-align: center;
+  color: #069dff;
+  font-size: 2rem;
+  margin: 3rem;
+}
+
+.contactSegment1 {
+  width: 90%;
+  margin: auto auto 3rem;
+  display: flex;
+}
+
+.connect {
+  width: 50%;
+}
+
+.connectHeader {
+  color: #069dff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.icons{
+  display: flex;
+}
+
+.iconDiv {
+  width: 5%;
+  margin: 20px 10px 0 0;
+}
+
+.icon {
+  width: 100%;
+}
+
+.message {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.messageHeader {
+  color: #1c1919;
+  font-size: 1.5rem;
+  width: 80%;
+  margin: 0 auto 10px;
+}
+
+.messageHeader1 {
+  width: 80%;
+  margin: 0 auto 10px; 
+}
+
+form {
+  width: 80%;
+  margin: auto;
+}
+
+.textField {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #e2f1fb;
+  height: 2.5rem;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.textArea {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #e2f1fb;
+  height: 4rem;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  padding-left: 15px;
+  font-size: 1rem;
+  color: #069dff70;
+}
+
+.formButton {
+  width: 25%;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #069dff;
+  border: #069dff 1px solid;
+  color: #e2f1fb;
+}
