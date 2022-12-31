@@ -1,0 +1,28 @@
+.footer {
+  background-color: #069dff;
+  color: #e2f1fb;
+}
+
+.footer1 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+
+.icons{
+  display: flex;
+}
+
+.iconDiv {
+  width: 30px;
+  margin: 20px 10px 0 0;
+}
+
+.icon {
+  width: 100%;
+  color: #e2f1fb;
+  background-color: #e2f1fb;
+}

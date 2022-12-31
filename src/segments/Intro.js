@@ -11,7 +11,7 @@ const Intro = () => {
           <div className={styles.intro2}>I am <span className={styles.introName}>Elisha Tetteyfio</span></div>
           <div className={styles.intro3}>
             I am a full-stack developer and a mathematician too. 
-            <span className={styles.deskOnly}>Feel free to contact me about Programming or Maths.</span>
+            <span className={styles.deskOnly}> Feel free to contact me about Programming or Maths.</span>
           </div>
           <div>
             <button className={`${styles.introButton} ${styles.introButton1}`}>Hire me</button>

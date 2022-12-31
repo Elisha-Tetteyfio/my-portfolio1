@@ -1,6 +1,6 @@
 .contactSegment {
   background-color: #e2f1fb;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   display: flow-root;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .iconDiv {
-  width: 5%;
+  width: 30px;
   margin: 20px 10px 0 0;
 }
 
@@ -43,6 +43,7 @@
 .message {
   background-color: #fff;
   border-radius: 5px;
+  padding: 20px 0;
 }
 
 .messageHeader {
@@ -70,6 +71,7 @@ form {
   height: 2.5rem;
   border-radius: 5px;
   margin-bottom: 10px;
+  padding-left: 15px;
 }
 
 .textArea {
@@ -80,10 +82,10 @@ form {
   height: 4rem;
   border-radius: 5px;
   margin-bottom: 10px;
+  padding-left: 15px;
 }
 
 ::placeholder {
-  padding-left: 15px;
   font-size: 1rem;
   color: #069dff70;
 }
