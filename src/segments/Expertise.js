@@ -12,35 +12,35 @@ const Expertise = () => {
     <div className={styles.expertise}>
       <div className={styles.title}>My expertise</div>
       <div className={styles.skills}>
-        <div>
+        <div className={styles.skills1}>
           <SkillSet 
             name="Front-end" 
             skills={["React", "Redux", "JavaScript", "Bootstrap", "CSS"]}
             img={frontend}
           />
         </div>
-        <div>
+        <div className={styles.skills1}>
           <SkillSet
             name="Back-end" 
             skills={["Ruby on Rails", "Ruby", "JavaScript"]}
             img={backend}
           />
         </div>
-        <div>
+        <div className={styles.skills1}>
           <SkillSet 
             name="Databases & APIs" 
             skills={["Ruby on Rails", "PostgreSQL"]}
             img={databases}
           />
         </div>
-        <div>
+        <div className={styles.skills1}>
           <SkillSet 
             name="Tools & methods" 
             skills={["Git", "GitHub", "Heroku", "Netlify"]}
             img={tools}
           />
         </div>
-        <div>
+        <div className={styles.skills1}>
           <SkillSet 
             name="Data analysis" 
             skills={["Python", "Ruby", "Ruby on Rails"]}

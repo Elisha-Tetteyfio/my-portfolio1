@@ -15,10 +15,22 @@
   justify-content: space-between;
 }
 
+.skills1{
+  background-color: #fff;
+  display: flow-root;
+  border-radius: 5px;
+  width: 19%;
+}
+
 @media screen and (max-width: 768px) {
   .skills {
     overflow-x: scroll;
   }  
+
+  .skills1 {
+    width: 15rem;
+    margin-right: 2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {

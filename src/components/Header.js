@@ -13,12 +13,12 @@ const Header = () => {
   return(
     <div className={styles.header}>
       <div className={styles.headerr}>
-        <div className={styles.menuDiv}><img src={menu} onClick={()=>hideMenu()}/></div>
+        <div className={styles.menuDiv}><img src={menu} alt="menu" onClick={()=>hideMenu()}/></div>
         {
           showMenu && 
           <div className={styles.menu}>
             <div className={styles.imDiv}>
-              <img src={closemenu} onClick={()=>hideMenu()}/>
+              <img src={closemenu} alt="close" onClick={()=>hideMenu()}/>
             </div>
             <div className={styles.headerLinkDiv}><a href="#home" className={styles.headerLink} onClick={()=>hideMenu()}>Home</a></div>
             <div className={styles.headerLinkDiv}><a href="#about" className={styles.headerLink} onClick={()=>hideMenu()}>About</a></div>
