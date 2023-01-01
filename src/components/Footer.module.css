@@ -26,3 +26,13 @@
   color: #e2f1fb;
   background-color: #e2f1fb;
 }
+
+@media screen and (max-width: 768px) {
+  .deskOnly {
+    display: none;
+  }  
+
+  .footer1 {
+    font-size: 1rem;
+  }
+}

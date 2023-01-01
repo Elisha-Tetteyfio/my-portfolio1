@@ -12,7 +12,7 @@ const Contact = () => {
       <div className={styles.contactSegment1}>
         <div className={styles.connect}>
           <div className={styles.connectHeader}>Connect with me</div>
-          <div>Be sure to connect with me on:</div>
+          <div className={styles.deskOnly}>Be sure to connect with me on:</div>
           <div className={styles.icons}>
             <div className={styles.iconDiv}>
               <a href="https://github.com/Elisha-Tetteyfio" target="_blank" rel="noreferrer">
@@ -37,7 +37,7 @@ const Contact = () => {
           </div>
         </div>
         <div className={styles.message}>
-          <div className={styles.messageHeader}>Contact me</div>
+          <div className={`${styles.messageHeader} ${styles.deskOnly}`}>Contact me</div>
           <div>
             <div className={styles.messageHeader1}>Send me a message</div>
             <form action="https://formspree.io/f/myyobwbp" method="POST">

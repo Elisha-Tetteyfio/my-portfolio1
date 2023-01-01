@@ -33,3 +33,19 @@
 .aboutRightText2 {
   color: #a4a4a5;
 }
+
+@media screen and (max-width: 768px) {
+  .about {
+    display: block;
+  }
+
+  .aboutLeft {
+    width: 60%;
+    margin-right: 10px;
+    float: left;
+  }
+
+  .aboutRight {
+    width: auto;
+  }
+}

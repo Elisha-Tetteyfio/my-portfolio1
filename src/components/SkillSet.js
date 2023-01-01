@@ -3,8 +3,7 @@ import Skill from "./Skill";
 import styles from "./SkillSet.module.css"
 
 const SkillSet = (skill) => {
-  const {name, skills} = skill;
-  // const {skills} = skills;
+  const {name} = skill;
   return(
     <div className={styles.card}>
       <div className={styles.imgDiv}><img src={skill.img} alt="icon"/></div>

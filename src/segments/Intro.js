@@ -32,21 +32,21 @@ const Intro = () => {
       <div className={styles.introDown}>
         <div className={styles.introDown1}>
           <div className={styles.introDown3}>
-            <div className={styles.introDown3ImDiv}><img src={teamwork} alt="Teamwork"/></div>
+            <div className={`${styles.introDown3ImDiv} ${styles.deskOnly}`}><img src={teamwork} alt="Teamwork"/></div>
             <div>Teamwork</div>
           </div>
           <div className={styles.introDown2}>
             &#x2727;
           </div>
           <div className={styles.introDown3}>
-            <div className={styles.introDown3ImDiv}><img src={remote} alt="remote"/></div>
+            <div className={`${styles.introDown3ImDiv} ${styles.deskOnly}`}><img src={remote} alt="remote"/></div>
             <div>Remote working</div>
           </div>
           <div className={styles.introDown2}>
             &#x2727;
           </div>
           <div className={styles.introDown3}>
-            <div className={styles.introDown3ImDiv}><img src={satisfaction} alt="satisfaction"/></div>
+            <div className={`${styles.introDown3ImDiv} ${styles.deskOnly}`}><img src={satisfaction} alt="satisfaction"/></div>
             <div>Satisfaction guaranteed</div>
           </div>
         </div>

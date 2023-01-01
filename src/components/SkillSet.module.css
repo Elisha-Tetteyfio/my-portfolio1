@@ -1,6 +1,5 @@
 .card {
   background-color: #fff;
-  width: 15rem;
   display: flow-root;
   font-size: 1.5rem;
   font-weight: 500;
@@ -27,4 +26,11 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 15rem;
+    margin-right: 20px;
+  }  
 }

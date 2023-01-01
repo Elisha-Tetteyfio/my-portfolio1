@@ -10,7 +10,7 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className={styles.footer1}>
         <div>Gmail @ tetteyfioelisha@gmail.com</div>
-        <div className={styles.icons}>
+        <div className={`${styles.icons} ${styles.deskOnly}`}>
           <a href="https://github.com/Elisha-Tetteyfio" target="_blank" rel="noreferrer" className={styles.iconDiv}>
             <img src={github} alt="GitHub" className={styles.icon}/> 
           </a>
