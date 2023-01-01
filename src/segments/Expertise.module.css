@@ -20,3 +20,14 @@
     overflow-x: scroll;
   }  
 }
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+    margin: 3rem auto;
+  }
+
+  .skills {
+    display: flex;
+  }
+}

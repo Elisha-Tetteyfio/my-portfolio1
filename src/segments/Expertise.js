@@ -12,7 +12,7 @@ const Expertise = () => {
     <div className={styles.expertise}>
       <div className={styles.title}>My expertise</div>
       <div className={styles.skills}>
-        <div className={styles.www}>
+        <div>
           <SkillSet 
             name="Front-end" 
             skills={["React", "Redux", "JavaScript", "Bootstrap", "CSS"]}

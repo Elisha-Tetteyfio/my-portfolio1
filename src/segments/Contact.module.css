@@ -112,3 +112,23 @@ form {
     margin-bottom: 2rem;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .tablet {
+    display: none;
+  }
+
+  .contactHeader {
+    font-size: 1.5rem;
+    margin: 3rem auto 1rem;
+  }
+
+  .connect {
+    margin: auto;
+  }
+
+  .icons {
+    width: fit-content;
+    margin: auto auto 2rem;
+  }
+}

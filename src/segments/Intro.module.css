@@ -123,10 +123,31 @@
   }
 }
 
-/* @media screen and (max-width: 480px) {
-  .intro {
-    background-image: url("../images/t5.jpg");
+@media screen and (max-width: 480px) {
+  body {
+    min-width: 375px;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .home {
+    background-image: radial-gradient(#069dff, #fafafa, #fafafa);
     background-size: contain;
     height: 100vh;
   }
-} */
+
+  .introLeft {
+    width: 100%;
+  }
+
+  .introButton {
+    background-color: #e2f1fb;
+  }
+
+  .introButton1 {
+    background-color: #069dff;
+  }
+
+}

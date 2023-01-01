@@ -1,6 +1,6 @@
 .card {
   background-color: #fff;
-  width: 30%;
+  /* width: 30%; */
   display: flow-root;
   border-radius: 5px;
   margin-bottom: 2rem;
@@ -68,5 +68,15 @@
 
   .source {
     width: 40%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    background-color: #fff;
+    width: 15rem;
+    display: flow-root;
+    border-radius: 5px;
+    margin-bottom: 2rem;
   }
 }

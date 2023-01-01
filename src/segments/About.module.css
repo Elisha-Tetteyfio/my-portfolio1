@@ -49,3 +49,23 @@
     width: auto;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .about{
+    margin-top: 0;
+  } 
+
+  .aboutLeft {
+    width: 100%;
+  }
+
+  .aboutRightTitle {
+    font-size: 1.5rem;
+    /* color: #069dff; */
+    /* margin-bottom: 20px; */
+  }
+
+  .aboutRightText1 {
+    font-size: 1.2rem;
+  }
+}

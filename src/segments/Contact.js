@@ -11,7 +11,7 @@ const Contact = () => {
       <div className={styles.contactHeader}>Let's connect!!!</div>
       <div className={styles.contactSegment1}>
         <div className={styles.connect}>
-          <div className={styles.connectHeader}>Connect with me</div>
+          <div className={`${styles.connectHeader} ${styles.tablet}`}>Connect with me</div>
           <div className={styles.deskOnly}>Be sure to connect with me on:</div>
           <div className={styles.icons}>
             <div className={styles.iconDiv}>

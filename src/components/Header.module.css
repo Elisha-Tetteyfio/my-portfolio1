@@ -1,3 +1,7 @@
+.menu, .menuDiv {
+  display: none;
+}
+
 .header {
   height: 10vh;
   width: 100%;
@@ -41,5 +45,53 @@
 
   .headerLink {
     margin: 0 0 0 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tablet {
+    display: none;
+  }
+
+  .headerr {
+    width: 100%;
+  }
+
+  .menuDiv {
+    width: 10%;
+    margin-left: 20px;
+    align-self: center;
+    display: block;
+  }
+
+  .menuDiv > img {
+    width: 100%;
+  }
+
+  .imDiv {
+    width: 10%;
+    margin: 30px;
+  }
+
+  .imDiv > img {
+    width: 100%;
+  }
+
+  .menu {
+    display: block;
+    height: 100vh;
+    background-color: #069dff;
+    background-image: radial-gradient(#fafafa, #069dff);
+    width: 100%;
+    position: fixed;
+  }
+
+  .headerLinkDiv {
+    margin: 30px;
+  }
+
+  .headerLink {
+    width: 100%;
+    font-size: 1.5rem;
   }
 }

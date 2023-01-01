@@ -15,3 +15,28 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+.projectsSection1 {
+  background-color: #fff;
+  width: 30%;
+  display: flow-root;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+    margin: 3rem auto;
+  }
+
+  .projectsSection {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+
+  .projectsSection1 {
+    width: 15rem;
+    margin-right: 2rem;
+  }
+}

@@ -7,7 +7,7 @@ import satisfaction from "../images/icons/satisfaction.svg"
 
 const Intro = () => {
   return(
-    <div id="home">
+    <div id="home" className={styles.home}>
       <div className={styles.intro}>
         <div className={styles.introLeft}>
           <div className={styles.intro1}>Hello there,</div>
@@ -25,7 +25,7 @@ const Intro = () => {
             </a>
           </div>
         </div>
-        <div className={styles.introRight}>
+        <div className={`${styles.introRight} ${styles.tablet}`}>
           <img src={im} alt="Me" className={styles.deskOnly}/>
         </div>
       </div>
