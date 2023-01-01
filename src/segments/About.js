@@ -13,8 +13,10 @@ const About = () => {
         <div className={styles.aboutRightText1}>Over two years of developing and web apps and APIs.</div>
         <div className={styles.aboutRightText2}>  
           I am a full-stack developer with expertise in APIs and back-end programming. I can adapt to any role
-          in any firm to work. I also enjoy mathematics especially abstract algebra. I would fill this part
-          with updated content later, for now I'm focused on the design, this is just like a... placeholder.
+          in any firm to work. I do enjoy teamwork and collaborating with others on projects.
+          I also enjoy mathematics especially abstract algebra. <br/>
+          I believe life is a learning process and everyone can still learn new things so I make it a point
+          to keep learning.
         </div>
       </div>
     </div>
