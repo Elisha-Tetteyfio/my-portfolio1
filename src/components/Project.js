@@ -10,8 +10,12 @@ const Project = (project) => {
         <div className={styles.projectDetails}>
           {project.description}
         </div>
-        <button className={styles.liveDemo}>Live Demo</button>
-        <button className={`${styles.liveDemo} ${styles.source}`}>Source code</button>
+        <a href={project.liveLink} target="_blank" rel="noreferrer">
+          <button className={styles.liveDemo}>Live Demo</button>
+        </a>
+        <a href={project.source} target="_blank" rel="noreferrer">
+          <button className={`${styles.liveDemo} ${styles.source}`}>Source code</button>
+        </a>
       </div>
     </div>
   )

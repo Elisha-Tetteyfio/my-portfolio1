@@ -17,8 +17,12 @@ const Intro = () => {
             <span className={styles.deskOnly}> Feel free to contact me about Programming or Maths.</span>
           </div>
           <div>
-            <button className={`${styles.introButton} ${styles.introButton1}`}>Hire me</button>
-            <button className={styles.introButton}>Let's talk</button>
+            <a href="#contact">
+              <button className={`${styles.introButton} ${styles.introButton1}`}>Hire me</button> 
+            </a>
+            <a href="#contact">
+              <button className={styles.introButton}>Let's talk</button>
+            </a>
           </div>
         </div>
         <div className={styles.introRight}>
