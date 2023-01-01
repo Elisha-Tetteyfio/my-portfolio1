@@ -1,6 +1,15 @@
+:root {
+  --bgColor: #fafafa;
+  --mainColor: #1c1919;
+  --lightMain: #a4a4a5;
+  --secondary: #069dff;
+  --lightSecondary: #e2f1fb;
+  --cardsBg: #fff;
+}
+
 .footer {
-  background-color: #069dff;
-  color: #e2f1fb;
+  background-color: var(--secondary);
+  color: var(--lightSecondary);
 }
 
 .footer1 {
@@ -23,8 +32,8 @@
 
 .icon {
   width: 100%;
-  color: #e2f1fb;
-  background-color: #e2f1fb;
+  color: var(--lightSecondary);
+  background-color: var(--lightSecondary);
 }
 
 @media screen and (max-width: 768px) {

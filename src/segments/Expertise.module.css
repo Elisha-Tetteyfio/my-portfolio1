@@ -1,10 +1,19 @@
+:root {
+  --bgColor: #fafafa;
+  --mainColor: #1c1919;
+  --lightMain: #a4a4a5;
+  --secondary: #069dff;
+  --lightSecondary: #e2f1fb;
+  --cardsBg: #fff;
+}
+
 .expertise {
   width: 90%;
   margin: auto;
 }
 
 .title {
-  color: #069dff;
+  color: var(--secondary);
   font-size: 2rem;
   width: fit-content;
   margin: 7rem auto 3rem;
@@ -16,7 +25,7 @@
 }
 
 .skills1{
-  background-color: #fff;
+  background-color: var(--cardsBg);
   display: flow-root;
   border-radius: 5px;
   width: 19%;

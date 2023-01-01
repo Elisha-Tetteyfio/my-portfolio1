@@ -1,3 +1,12 @@
+:root {
+  --bgColor: #fafafa;
+  --mainColor: #1c1919;
+  --lightMain: #a4a4a5;
+  --secondary: #069dff;
+  --lightSecondary: #e2f1fb;
+  --cardsBg: #fff;
+}
+
 .intro {
   height: 80vh;
   width: 90%;
@@ -18,7 +27,7 @@
 
 .introName {
   font-weight: 500;
-  color: #069dff;
+  color: var(--secondary);
 }
 
 .introButton {
@@ -27,18 +36,18 @@
   margin-top: 20px;
   border-radius: 5px;
   background-color: inherit;
-  border: #069dff 1px solid;
-  color: #069dff;
+  border: var(--secondary) 1px solid;
+  color: var(--secondary);
 }
 
 .introButton1 {
-  background-color: #069dff;
-  color: #fafafa;
+  background-color: var(--secondary);
+  color: var(--bgColor);
   margin-right: 15px;
 }
 
 .introRight {
-  background-image: linear-gradient(#069dff, #fafafa);
+  background-image: linear-gradient(var(--secondary), var(--bgColor));
   height: 80%;
   border-radius: 50% 50% 0 0;
   display: flex;
@@ -54,7 +63,7 @@
 .introDown {
   font-size: 2rem;
   font-weight: 600;
-  background-color: #e2f1fb;
+  background-color: var(--lightSecondary);
   height: 10vh;
 }
 
@@ -68,7 +77,7 @@
 }
 
 .introDown2 {
-  color: #069dff;
+  color: var(--secondary);
   font-size: 2rem;
 }
 
@@ -111,7 +120,7 @@
   }
   
   .introRight {
-    background-image: linear-gradient(#069dff, #fafafa);
+    background-image: linear-gradient(var(--secondary), var(--bgColor));
     width: 30%;
     height: 50%;
     border-radius: 50% 50% 50% 50%;
@@ -133,7 +142,7 @@
   }
 
   .home {
-    background-image: radial-gradient(#069dff, #fafafa, #fafafa);
+    background-image: radial-gradient(var(--secondary), var(--bgColor), var(--bgColor));
     background-size: contain;
     height: 100vh;
   }
@@ -143,11 +152,11 @@
   }
 
   .introButton {
-    background-color: #e2f1fb;
+    background-color: var(--lightSecondary);
   }
 
   .introButton1 {
-    background-color: #069dff;
+    background-color: var(--secondary);
   }
 
 }
