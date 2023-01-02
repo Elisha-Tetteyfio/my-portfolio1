@@ -8,12 +8,14 @@
 }
 
 .dark {
-  --bgColor: #010101;
-  --mainColor: #e8d199;
-  --lightMain: gold;
-  --secondary: gold;
-  --lightSecondary: rgb(228, 214, 133);
-  --cardsBg: gray;
+  --bgColor: #102020;
+  --mainColor: #abba82;
+  --lightMain: #487549;
+  --secondary: #a7b5b7;
+  --lightSecondary: #202010; /*#037c87*/;
+  --cardsBg: #285158;
+
+  /* #071028 */
 }
 
 .all {
