@@ -1,11 +1,18 @@
-import React from "react";
 import styles from "./Intro.module.css"
 import im from "../images/t1.png"
 import teamwork from "../images/icons/teamwork.svg"
 import remote from "../images/icons/remote-work.svg"
 import satisfaction from "../images/icons/satisfaction.svg"
+import { useDispatch} from "react-redux";
+import { changeTheme } from "../store/reducer";
 
 const Intro = () => {
+  const dispatch = useDispatch();
+
+  const change = () => {
+    dispatch(changeTheme())
+  }
+
   return(
     <div id="home" className={styles.home}>
       <div className={styles.intro}>
@@ -24,6 +31,10 @@ const Intro = () => {
               <button className={styles.introButton}>Let's talk</button>
             </a>
           </div>
+          <label className={styles.toggle}  >
+            <input type="checkbox" onClick={change}/>
+            <span/>
+          </label>
         </div>
         <div className={`${styles.introRight} ${styles.tablet}`}>
           <img src={im} alt="Me" className={styles.deskOnly}/>

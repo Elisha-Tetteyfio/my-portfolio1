@@ -8,7 +8,7 @@
 }
 
 .intro {
-  height: 80vh;
+  height: 90vh;
   width: 90%;
   margin: 10vh auto auto auto;
   display: flex;
@@ -46,9 +46,50 @@
   margin-right: 15px;
 }
 
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  border-radius: 30px;
+  margin-top: 2rem;
+}
+
+.toggle input {
+  display: none;
+}
+
+.toggle span {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--secondary);
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+.toggle span:before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  left: 3px;
+  bottom: 2.6px;
+  background-color: var(--lightSecondary);
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.toggle input:checked + span:before {
+  transform: translateX(30px);
+}
+
 .introRight {
   background-image: linear-gradient(var(--secondary), var(--bgColor));
-  height: 80%;
+  height: 90%;
   border-radius: 50% 50% 0 0;
   display: flex;
   justify-content: center;
@@ -57,7 +98,7 @@
 }
 
 .introRight > img {
-  height: 70vh;
+  height: 90vh;
 }
 
 .introDown {

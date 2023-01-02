@@ -1,7 +1,7 @@
 const time = new Date().getHours();
 let lightTheme;
 
-const setTheme = () => {
+const setDefaultTheme = () => {
   if(6<time && time<18){
     lightTheme=true;
   }else{
@@ -9,7 +9,13 @@ const setTheme = () => {
   }
 }
 
-setTheme();
+setDefaultTheme();
+
+export const changeTheme = () => {
+  return {
+    type: "CHANGE"
+  }
+}
 
 const isLightTheme = (state = lightTheme, action) => {
   switch(action.type){

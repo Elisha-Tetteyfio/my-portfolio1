@@ -95,7 +95,8 @@ form {
 
 ::placeholder {
   font-size: 1rem;
-  color: var(--secondary)70;
+  color: var(--secondary);
+  opacity: 0.5;
 }
 
 .formButton {
