@@ -1,0 +1,24 @@
+:root {
+  --bgColor: #fafafa;
+  --mainColor: #1c1919;
+  --lightMain: #a4a4a5;
+  --secondary: #069dff;
+  --lightSecondary: #e2f1fb;
+  --cardsBg: #fff;
+}
+
+.dark {
+  --bgColor: #010101;
+  --mainColor: #e8d199;
+  --lightMain: gold;
+  --secondary: gold;
+  --lightSecondary: rgb(228, 214, 133);
+  --cardsBg: gray;
+}
+
+.all {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bgColor);
+  color: var(--mainColor);
+}
