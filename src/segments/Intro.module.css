@@ -101,6 +101,10 @@
   height: 90vh;
 }
 
+.introRight > img:hover {
+  opacity: 1;
+}
+
 .introDown {
   font-size: 2rem;
   font-weight: 600;

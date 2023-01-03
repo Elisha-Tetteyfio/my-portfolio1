@@ -12,10 +12,8 @@
   --mainColor: #abba82;
   --lightMain: #487549;
   --secondary: #a7b5b7;
-  --lightSecondary: #202010; /*#037c87*/;
+  --lightSecondary:  #183033;
   --cardsBg: #285158;
-
-  /* #071028 */
 }
 
 .all {
@@ -23,4 +21,15 @@
   height: 100%;
   background-color: var(--bgColor);
   color: var(--mainColor);
+}
+
+button:hover {
+  cursor: pointer;
+  font-size: large;
+  transition: 0.7s;
+}
+
+img:hover {
+  opacity: 0.5;
+  transition: 0.5s;
 }
