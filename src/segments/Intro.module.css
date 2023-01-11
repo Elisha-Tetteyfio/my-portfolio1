@@ -9,7 +9,7 @@
 
 .intro {
   height: 90vh;
-  width: 90%;
+  width: 70%;
   margin: 10vh auto auto auto;
   display: flex;
   align-items: center;
@@ -18,11 +18,39 @@
 }
 
 .introLeft {
-  width: 40%;
+  width: 80%;
 }
 
 .intro2 {
+  font-size: 3.7em;
+  font-weight: 600;
+  font-family: blenda;
+  overflow: hidden;
+  white-space: nowrap;
+  overflow-wrap: normal;
+  border-right: 2px var(--secondary) solid;
+  width: fit-content;
+  animation: 
+    typing 5s steps(100, end),
+    cursor 2s step-end infinite;
+}
+
+.intro4 {
   font-size: 2em;
+}
+
+.intro5 {
+  width: 60%;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%; white-space: wrap; }
+}
+
+@keyframes cursor {
+  from, to { border-color: transparent }
+  50% { border-color: var(--secondary); }
 }
 
 .introName {
@@ -35,15 +63,9 @@
   height: 40px;
   margin-top: 20px;
   border-radius: 5px;
-  background-color: inherit;
-  border: var(--secondary) 1px solid;
-  color: var(--secondary);
-}
-
-.introButton1 {
   background-color: var(--secondary);
+  border: var(--secondary) 1px solid;
   color: var(--bgColor);
-  margin-right: 15px;
 }
 
 .toggle {
@@ -89,20 +111,25 @@
 
 .introRight {
   background-image: linear-gradient(var(--secondary), var(--bgColor));
-  height: 90%;
-  border-radius: 50% 50% 0 0;
+  background-color: #069dff;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50% 50% 50% 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10%;
+  animation: 
+    lightShade 8s infinite;
+}
+
+@keyframes lightShade {
+  0% {transform: translate(200px, 270px) }
+  50% {transform: translate(-1100px, 270px) rotate(-360deg);}
+  100% {transform: translate(200px, 270px);}
 }
 
 .introRight > img {
   height: 90vh;
-}
-
-.introRight > img:hover {
-  opacity: 1;
 }
 
 .introDown {
@@ -170,10 +197,15 @@
     height: 50%;
     border-radius: 50% 50% 50% 50%;
     margin: 0;
+    animation: none;
   }
 
   .introDown3 {
     font-size: 1rem;
+  }
+
+  .intro4 {
+    font-size: 1.5rem;
   }
 }
 
@@ -195,13 +227,4 @@
   .introLeft {
     width: 100%;
   }
-
-  .introButton {
-    background-color: var(--lightSecondary);
-  }
-
-  .introButton1 {
-    background-color: var(--secondary);
-  }
-
 }

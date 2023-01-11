@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../components/Project";
 import styles from "./Projects.module.css"
 import math from "../images/projects/mathmagicians.png"
-import bookdev from "../images/projects/bookadev.png"
+import bookstore from "../images/projects/bookstore.png"
 import todo from "../images/projects/todolist.png"
 import mentors from "../images/projects/meetmentors.png"
 import leaders from "../images/projects/leaderboard.png"
@@ -60,11 +60,11 @@ const Projects = () => {
         </div>
         <div className={styles.projectsSection1}>
           <Project 
-            name="Book A Dev"
-            description="The budget app allows users to keep records of financial transactions they've made an plan
-            their budget well"
-            im={bookdev}
-            source="https://github.com/gak92/book_devs_app"
+            name="Bookstore Project"
+            description="The book store allows users to keep track of books they are reading by updating progress."
+            im={bookstore}
+            liveLink="https://stellar-pasca-f23a3b.netlify.app/"
+            source="https://github.com/Elisha-Tetteyfio/bookstore"
           />
         </div>
       </div>

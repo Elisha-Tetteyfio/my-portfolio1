@@ -1,5 +1,4 @@
 import styles from "./Intro.module.css"
-import im from "../images/t1.png"
 import teamwork from "../images/icons/teamwork.svg"
 import remote from "../images/icons/remote-work.svg"
 import satisfaction from "../images/icons/satisfaction.svg"
@@ -18,15 +17,15 @@ const Intro = () => {
       <div className={styles.intro}>
         <div className={styles.introLeft}>
           <div className={styles.intro1}>Hello there,</div>
-          <div className={styles.intro2}>I am <span className={styles.introName}>Elisha Tetteyfio</span>!</div>
+          <div className={styles.intro2}>I am <span className={styles.introName}>Elisha Tetteyfio</span></div>
           <div className={styles.intro3}>
-            I am a full-stack developer and a mathematician too. 
-            <span className={styles.deskOnly}> Feel free to contact me about Programming or Maths.</span>
+            <div className={styles.intro4}>I am a full-stack developer </div> 
+            <div className={styles.intro5}>
+              . . . and a mathematician too.
+              <span className={styles.deskOnly}> Feel free to contact me about Programming or Maths.</span>
+            </div>
           </div>
           <div>
-            <a href="#contact">
-              <button className={`${styles.introButton} ${styles.introButton1}`}>Hire me</button> 
-            </a>
             <a href="#contact">
               <button className={styles.introButton}>Let's talk</button>
             </a>
@@ -36,9 +35,7 @@ const Intro = () => {
             <span/>
           </label>
         </div>
-        <div className={`${styles.introRight} ${styles.tablet}`}>
-          <img src={im} alt="Me" className={styles.deskOnly}/>
-        </div>
+        <div className={`${styles.introRight} ${styles.tablet}`} />
       </div>
       <div className={styles.introDown}>
         <div className={styles.introDown1}>

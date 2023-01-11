@@ -9,7 +9,7 @@ import styles from "./Expertise.module.css"
 
 const Expertise = () => {
   return (
-    <div className={styles.expertise}>
+    <div className={styles.expertise} id="stack">
       <div className={styles.title}>My expertise</div>
       <div className={styles.skills}>
         <div className={styles.skills1}>

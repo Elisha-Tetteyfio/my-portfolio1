@@ -16,8 +16,7 @@
 
 .imgDiv {
   width: 100%;
-  height: 15rem;
-  /* border-radius: 5px; */
+  height: 12rem;
 }
 
 .imgDiv > img {
@@ -26,12 +25,17 @@
   border-radius: 5px 5px 0 0;
 }
 
+.imgDiv > img:hover {
+  transform: scale(0.95);
+  transition: 1s;
+}
+
 .projectInfo {
   margin: 1.5rem;
 }
 
 .projectName {
-  font-weight: 500;
+  font-weight: bolder;
   margin-bottom: 5px;
 }
 
