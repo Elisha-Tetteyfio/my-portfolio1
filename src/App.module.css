@@ -1,7 +1,7 @@
 :root {
   --bgColor: #fafafa;
   --mainColor: #1c1919;
-  --lightMain: #a4a4a5;
+  --lightMain: #747475;
   --secondary: #069dff;
   --lightSecondary: #e2f1fb;
   --cardsBg: #fff;
@@ -10,10 +10,20 @@
 .dark {
   --bgColor: #102020;
   --mainColor: #abba82;
-  --lightMain: #487549;
+  --lightMain: #74a475;
   --secondary: #a7b5b7;
   --lightSecondary:  #183033;
   --cardsBg: #285158;
+}
+
+@font-face {
+  font-family: robotoSlab;
+  src: url(images/font/RobotoSlab-Thin.ttf);
+}
+
+@font-face {
+  font-family: blenda;
+  src: url(images/font/Blenda\ Script.otf);
 }
 
 .all {
@@ -21,6 +31,8 @@
   height: 100%;
   background-color: var(--bgColor);
   color: var(--mainColor);
+  font-family: robotoSlab;
+  font-weight: bolder;
 }
 
 button:hover {
