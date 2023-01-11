@@ -16,8 +16,7 @@
 
 .imgDiv {
   width: 100%;
-  height: 15rem;
-  /* border-radius: 5px; */
+  height: 12rem;
 }
 
 .imgDiv > img {
