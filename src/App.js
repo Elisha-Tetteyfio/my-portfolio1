@@ -1,7 +1,11 @@
-function App() {
+import Header from "./components/Header";
+import Home from "./segments/Home";
+
+const App = () => {
   return (
-    <div className="App font-bold underline">
-      Heyyy
+    <div>
+      <Header />
+      <Home />
     </div>
   );
 }
