@@ -13,7 +13,7 @@ const Header = () => {
       </div>
       <div class=" block lg:flex lg:items-center lg:w-auto">
         <div class="text-lg lg:flex-grow">
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue mx-12">
+          <a href="#home" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue mx-12">
             HOME
           </a>
           <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue mx-12">
