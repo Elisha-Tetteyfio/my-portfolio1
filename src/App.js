@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import About from "./segments/About";
 import Home from "./segments/Home";
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <Header />
       <Home />
+      <About />
     </div>
   );
 }
