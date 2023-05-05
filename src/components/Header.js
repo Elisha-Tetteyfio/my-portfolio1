@@ -19,12 +19,12 @@ const Header = () => {
           <a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue mx-12">
             ABOUT ME
           </a>
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue mx-12">
+          <a href="#projects" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue mx-12">
             PROJECTS
           </a>
         </div>
         <div>
-          <a href="#" class="inline-block text-lg px-5 py-3 leading-none rounded-lg text-white bg-gradient-to-r from-lightBlue to-blue hover:text-darkBlue hover:from-lightBlue hover:to-lightBlue mt-4 lg:mt-0">Let's chat</a>
+          <a href="#" class="inline-block text-lg px-5 py-3 rounded-lg text-white bg-gradient-to-r from-lightBlue to-blue hover:text-darkBlue hover:from-lightBlue hover:to-lightBlue mt-4 lg:mt-0">Let's chat</a>
         </div>
       </div>
     </nav>
