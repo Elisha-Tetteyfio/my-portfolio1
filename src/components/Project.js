@@ -3,7 +3,7 @@ import about from "../images/about.jpg"
 
 const Project = (project) => {
   return (
-    <div className={`pt-16 font-bold ${project.style} justify-between`} id="projects">
+    <div className={`pt-16 font-bold ${project.style} justify-between mt-28 items-center`} id="projects">
       <div className="w-[45%]">
         <div className="text-4xl text-white">{project.name}</div>
         <div className="text-grey text-lg font-bold mt-5">
