@@ -17,7 +17,7 @@ const About = () => {
           I also enjoy mathematics especially abstract algebra. I believe life is a learning process and everyone can still learn new things so I make it a point to keep learning.
         </div>
         <div className="mt-5">
-          <a href="#" class="inline-block text-lg px-5 py-3 leading-none rounded-lg text-white bg-gradient-to-r from-lightBlue to-blue hover:text-darkBlue hover:from-lightBlue hover:to-lightBlue mt-4 lg:mt-0">Let's chat</a>
+          <a href="#contact" class="inline-block text-lg px-5 py-3 leading-none rounded-lg text-white bg-gradient-to-r from-lightBlue to-blue hover:text-darkBlue hover:from-lightBlue hover:to-lightBlue mt-4 lg:mt-0">Let's chat</a>
         </div>
       </div>
     </div>
