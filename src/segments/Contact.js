@@ -31,7 +31,7 @@ const Contact = (project) => {
                 </div>
               </div>
             </div>
-            <div className="z-20 bg-lightBlue w-[40%] rounded-xl pt-8 shadow-darkBlue/[.4] shadow-[-5px_-5px_50px] bg-gradient-to-br from-lightBlue to-blue">
+            <div className="z-20 bg-lightBlue w-[40%] rounded-xl pt-8 shadow-darkBlue/[.6] shadow-[-5px_-5px_50px] bg-gradient-to-br from-lightBlue to-blue">
               <div className="w-[90%] m-auto">
                 <input className="w-[100%] bg-darkBlue rounded-xl p-4 my-1 text-xl" placeholder="Name"/>
                 <input className="w-[100%] m-auto bg-darkBlue rounded-xl p-4 my-1 text-xl" placeholder="E-mail"/>

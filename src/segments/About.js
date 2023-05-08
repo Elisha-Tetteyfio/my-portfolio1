@@ -4,8 +4,8 @@ import about from "../images/about.jpg"
 const About = () => {
   return (
     <div className="pt-16 h-[85vh] w-[85%] m-auto flex justify-between" id="about">
-      <div className="text-5xl text-grey w-[35%] border-[15px] border-lightBlue rounded-lg ml-2">
-        <img src={about} className="w-[105%] h-[105%] relative -left-10 -top-14 rounded-lg"/>
+      <div className="text-5xl text-grey w-[35%] border-[15px] border-lightBlue rounded-lg relative left-6">
+        <img src={about} className="w-[100%] h-[100%] relative -left-10 -top-14 rounded-lg" alt="me"/>
       </div>
       <div className="w-[50%]">
         <div className="text-4xl text-white">About me</div>
