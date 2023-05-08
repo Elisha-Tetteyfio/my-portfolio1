@@ -18,15 +18,21 @@ const Contact = (project) => {
               </div>
               <div>
                 <div className="flex items-center mt-12">
-                  <div className="w-[4rem] h-[4rem] rounded-xl mr-5 bg-gradient-to-br from-lightBlue to-blue shadow-[0_0_500px]"></div>
+                  <div className="w-[4rem] h-[4rem] rounded-xl mr-5 bg-gradient-to-br from-lightBlue to-blue shadow-[0_0_500px] flex justify-center items-center">
+                    <i className="bi-envelope text-white text-3xl"></i>
+                  </div>
                   <div className="text-white text-xl">tetteyfioelisha@gmail.com</div>
                 </div>
                 <div className="flex items-center mt-2">
-                  <div className="w-[4rem] h-[4rem] rounded-xl mr-5 bg-gradient-to-br from-lightBlue to-blue shadow-[0_0_500px]"></div>
+                  <a href="https://github.com/Elisha-Tetteyfio" target="blank" rel="noreferrer"  className="w-[4rem] h-[4rem] rounded-xl mr-5 bg-gradient-to-br from-lightBlue to-blue shadow-[0_0_500px] flex justify-center items-center">
+                    <i className="bi-github text-white text-3xl"></i>
+                  </a>
                   <div className="text-white text-xl">@Elisha-Tetteyfio</div>
                 </div>
                 <div className="flex items-center mt-2">
-                  <div className="w-[4rem] h-[4rem] rounded-xl mr-5 bg-gradient-to-br from-lightBlue to-blue shadow-[0_0_500px]"></div>
+                  <a href="https://www.linkedin.com/in/elisha-tetteyfio/" target="blank" rel="noreferrer" className="w-[4rem] h-[4rem] rounded-xl mr-5 bg-gradient-to-br from-lightBlue to-blue shadow-[0_0_500px] flex justify-center items-center">
+                    <i className="bi-linkedin text-white text-3xl"></i>
+                  </a>
                   <div className="text-white text-xl">Elisha-Tetteyfio</div>
                 </div>
               </div>
@@ -41,13 +47,22 @@ const Contact = (project) => {
             </div>
           </div>
           <hr className="text-white/[.2] bg-white/[.2] h-[2px]"/>
-          <div className="flex justify-between text-center py-8">
-            <div>
-              <div className="w-[4rem] h-[4rem] rounded-xl mr-5 bg-gradient-to-br from-lightBlue to-blue shadow-[0_0_500px]"></div>
-            </div>
+          <div className="flex text-center py-8">
             <div className="flex">
-              <div className="w-[4rem] h-[4rem] rounded-xl mr-5 bg-gradient-to-br from-lightBlue to-blue shadow-[0_0_500px]"></div>
-              <div className="w-[4rem] h-[4rem] rounded-xl mr-5 bg-gradient-to-br from-lightBlue to-blue shadow-[0_0_500px]"></div>
+              <a href="https://twitter.com/Nii_AlYasa" target="blank" rel="noreferrer" className="w-[4rem] h-[4rem] flex items-center justify-center rounded-xl mr-5 bg-gradient-to-br from-lightBlue to-blue shadow-[0_0_500px]">
+                <i className="bi-twitter text-white text-3xl"></i>
+              </a>
+              <a href="#" className="w-[4rem] h-[4rem] flex items-center justify-center rounded-xl mr-5 bg-gradient-to-br from-lightBlue to-blue shadow-[0_0_500px]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                  <g>
+                    <path d="M2,2 l15,0 M2,2 l0,21 M2,23 l15,0" />
+                    <polygon points="17,2 12,7 5,5 10,12 5,20 12,17 17,23 17,14 23,12 17,9" fill="white"/>
+                  </g>
+                </svg>
+              </a>
+            </div>
+            <div>
+              <div className="h-[4rem] flex items-center justify-center text-white">Logo rights reserved</div>
             </div>
           </div>
         </div>
