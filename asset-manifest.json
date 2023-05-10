@@ -1,36 +1,18 @@
 {
   "files": {
-    "main.css": "/my-portfolio1/static/css/main.d37f22de.css",
-    "main.js": "/my-portfolio1/static/js/main.fa6b19fa.js",
+    "main.css": "/my-portfolio1/static/css/main.87475345.css",
+    "main.js": "/my-portfolio1/static/js/main.f732aff2.js",
     "static/media/mathmagicians.png": "/my-portfolio1/static/media/mathmagicians.f9f57c724331bd409c7f.png",
     "static/media/meetmentors.png": "/my-portfolio1/static/media/meetmentors.d8c53831207309309568.png",
-    "static/media/linkedin.svg": "/my-portfolio1/static/media/linkedin.c4d67cb40a4032ca22bc8d5ffc4a711c.svg",
-    "static/media/RobotoSlab-Thin.ttf": "/my-portfolio1/static/media/RobotoSlab-Thin.ac12d323dca67204ba2e.ttf",
     "static/media/leaderboard.png": "/my-portfolio1/static/media/leaderboard.bac3fe58b0ba705f707f.png",
-    "static/media/portfolio.png": "/my-portfolio1/static/media/portfolio.6f7ad4d62b801e16cafe.png",
-    "static/media/Blenda Script.otf": "/my-portfolio1/static/media/Blenda Script.184c67447026dce1ee5f.otf",
-    "static/media/bookstore.png": "/my-portfolio1/static/media/bookstore.8468919125f5122a2b6a.png",
-    "static/media/aboutImage.jpg": "/my-portfolio1/static/media/aboutImage.1d51502cf00d6834537d.jpg",
+    "static/media/about.jpg": "/my-portfolio1/static/media/about.0ef7d044f7085c8bc659.jpg",
     "static/media/todolist.png": "/my-portfolio1/static/media/todolist.a5253e52a86c1b21b621.png",
-    "static/media/database.svg": "/my-portfolio1/static/media/database.77d892f05d3b232514d274f66c48c4b0.svg",
-    "static/media/teamwork.svg": "/my-portfolio1/static/media/teamwork.c963a7c57b248ee02cb394ec2a6b9af8.svg",
-    "static/media/data-analysis.svg": "/my-portfolio1/static/media/data-analysis.7812912b0bd91be63b09e36f48fddbe0.svg",
-    "static/media/close.svg": "/my-portfolio1/static/media/close.792f292649570c8c1dcd6c6d06f1f1e4.svg",
-    "static/media/tools.svg": "/my-portfolio1/static/media/tools.5435b21bd63d43384dd152610f216f8f.svg",
-    "static/media/remote-work.svg": "/my-portfolio1/static/media/remote-work.8615f87b8bd6987c273bd727923ddef7.svg",
-    "static/media/twitter.svg": "/my-portfolio1/static/media/twitter.db5dce2fac4092662febbc2cccb10047.svg",
-    "static/media/front-end.svg": "/my-portfolio1/static/media/front-end.6a91ada8e0399e8f8f40bb03dcff504d.svg",
-    "static/media/back-end.svg": "/my-portfolio1/static/media/back-end.a621cb82dfce5047ceb875b96ce920d5.svg",
-    "static/media/satisfaction.svg": "/my-portfolio1/static/media/satisfaction.caf04d3d37c471e1da46b109fb4fd678.svg",
-    "static/media/github.svg": "/my-portfolio1/static/media/github.ff9982d4980e03ef8ec38088ac15a70d.svg",
     "index.html": "/my-portfolio1/index.html",
-    "static/media/menu.svg": "/my-portfolio1/static/media/menu.58f1efbda8f7348ef37d13ae313388d5.svg",
-    "static/media/logo.svg": "/my-portfolio1/static/media/logo.8811f7ca2e96f44732d1d982070525db.svg",
-    "main.d37f22de.css.map": "/my-portfolio1/static/css/main.d37f22de.css.map",
-    "main.fa6b19fa.js.map": "/my-portfolio1/static/js/main.fa6b19fa.js.map"
+    "main.87475345.css.map": "/my-portfolio1/static/css/main.87475345.css.map",
+    "main.f732aff2.js.map": "/my-portfolio1/static/js/main.f732aff2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d37f22de.css",
-    "static/js/main.fa6b19fa.js"
+    "static/css/main.87475345.css",
+    "static/js/main.f732aff2.js"
   ]
 }
