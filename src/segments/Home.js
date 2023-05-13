@@ -5,7 +5,7 @@ const Home = () => {
     <div className="w-[85%] m-auto">
       <div className="pt-16 h-[85vh] w-[60%] font-bold" id="home">
         <div className="text-5xl text-grey">I'm a</div>
-        <div className="text-8xl text-white tracking-wide">Full-stack software developer.</div>
+        <div className="text-8xl text-white tracking-wide animate-pulse">Full-stack software developer.</div>
       </div>
     </div>
   )

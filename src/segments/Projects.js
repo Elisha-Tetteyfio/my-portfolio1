@@ -22,8 +22,7 @@ const Projects = () => {
           />
         <Project 
           name="Meet mentors"
-          desc="I am a full-stack developer with expertise in APIs and back-end programming. I primarily work with Ruby on Rails and PostgreSQL, with which I have built a couple of projects. I can also work on the front-end and hence can adapt to any role in any firm.
-              I do enjoy teamwork and collaborating with others on projects."
+          desc="A MeetMentors website providing information about their events and programmes."
           styles="flex flex-row-reverse"
           num="2"
           image={meentors}
@@ -32,8 +31,7 @@ const Projects = () => {
           />
         <Project 
           name="Leaderboard"
-          desc="I am a full-stack developer with expertise in APIs and back-end programming. I primarily work with Ruby on Rails and PostgreSQL, with which I have built a couple of projects. I can also work on the front-end and hence can adapt to any role in any firm.
-              I do enjoy teamwork and collaborating with others on projects."
+          desc="A site connected to an API to allow gamers record their scores and view other player's scores."
           styles="flex"
           num="3"
           image={leader}
@@ -42,8 +40,7 @@ const Projects = () => {
           />
         <Project 
           name="To-do list"
-          desc="I am a full-stack developer with expertise in APIs and back-end programming. I primarily work with Ruby on Rails and PostgreSQL, with which I have built a couple of projects. I can also work on the front-end and hence can adapt to any role in any firm.
-              I do enjoy teamwork and collaborating with others on projects."
+          desc="An app to help you schedule your daily activities."
           styles="flex flex-row-reverse"
           num="4"
           image={todo}

@@ -14,7 +14,7 @@ const Contact = (project) => {
             <div className="w-[55%] z-20">
               <div className="text-white text-3xl font-bold mb-5">Send me a message</div>
               <div className="text-white/[.5] text-lg w-[60%]">
-                Let's get in touch!!! Send me a message about a project or let's just have a coffee chat to know each other.
+                Let's get in touch!!! <br/> Send me a friendly message about a project or mathematics.
               </div>
               <div>
                 <div className="flex items-center mt-12">
