@@ -27,7 +27,7 @@ const Header = () => {
           </a>
         </div>
         <div>
-          <a href="#contact" class="inline-block text-lg px-5 py-3 rounded-lg text-white bg-gradient-to-r from-lightBlue to-blue hover:text-darkBlue hover:from-lightBlue hover:to-lightBlue mt-4 lg:mt-0">Let's chat</a>
+          <a href="#contact" class="inline-block text-lg px-5 py-3 rounded-lg text-white bg-gradient-to-r from-blue via-lightBlue to-blue bg-[length:800%_500%] animate-btnBg hover:text-darkBlue hover:from-lightBlue hover:to-lightBlue mt-4 lg:mt-0">Let's chat</a>
         </div>
       </div>
     </nav>
