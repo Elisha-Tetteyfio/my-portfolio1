@@ -4,7 +4,17 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        btnBg: {
+          '0%': { 'background-position': '100% 0%' },
+          '100%': { 'background-position': '0% 100%' },
+        },
+      },
+      animation: {
+        btnBg: 'btnBg 3s ease-in-out infinite',
+      }
+    },
     colors: {
       darkBlue: "#101630",
       blue: "#3413aa",
